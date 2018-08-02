@@ -28,7 +28,7 @@ Quick setup
 
 2. Build and install the binary in your $GOPATH:
 ```
-go get -u gopkg.in/launchdarkly/ld-relay.v5/...
+go get -u github.com/atrakh/ld-relay/...
 ```
 
 3. Create LD Relay configuration file. Create a new filed called `ld-relay.conf` containing the text:

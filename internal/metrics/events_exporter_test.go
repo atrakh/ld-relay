@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/events"
+	"github.com/atrakh/ld-relay/internal/events"
 )
 
 const testReportingPeriod = time.Millisecond

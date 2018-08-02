@@ -26,12 +26,12 @@ import (
 	ld "gopkg.in/launchdarkly/go-client.v4"
 	ldr "gopkg.in/launchdarkly/go-client.v4/redis"
 
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/events"
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/metrics"
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/store"
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/util"
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/version"
-	"gopkg.in/launchdarkly/ld-relay.v5/logging"
+	"github.com/atrakh/ld-relay/internal/events"
+	"github.com/atrakh/ld-relay/internal/metrics"
+	"github.com/atrakh/ld-relay/internal/store"
+	"github.com/atrakh/ld-relay/internal/util"
+	"github.com/atrakh/ld-relay/internal/version"
+	"github.com/atrakh/ld-relay/logging"
 )
 
 const (

@@ -15,7 +15,7 @@ defaults:
       github.com/kyoh86/richgo
 
   build_steps: &build_steps
-    working_directory: /go/src/gopkg.in/launchdarkly/ld-relay.v5
+    working_directory: /go/src/github.com/atrakh/ld-relay
     steps:
       - checkout
       - run: go get -u $COMMON_GO_PACKAGES
@@ -86,7 +86,7 @@ jobs:
     docker:
       - <<: *release_docker_image
 
-    working_directory: /go/src/gopkg.in/launchdarkly/ld-relay.v5
+    working_directory: /go/src/github.com/atrakh/ld-relay
     steps:
       - checkout
       - setup_remote_docker  # start docker engine
@@ -102,7 +102,7 @@ jobs:
     docker:
       - <<: *release_docker_image
 
-    working_directory: /go/src/gopkg.in/launchdarkly/ld-relay.v5
+    working_directory: /go/src/github.com/atrakh/ld-relay
     steps:
       - checkout
       - setup_remote_docker  # start docker engine

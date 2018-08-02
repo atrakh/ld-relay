@@ -14,8 +14,8 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/events"
-	"gopkg.in/launchdarkly/ld-relay.v5/logging"
+	"github.com/atrakh/ld-relay/internal/events"
+	"github.com/atrakh/ld-relay/logging"
 )
 
 type ExporterType string

@@ -4,7 +4,7 @@ RUN apk --no-cache add \
     libc-dev \
  && rm -rf /var/cache/apk/*
 
-ARG SRC_DIR=/go/src/gopkg.in/launchdarkly/ld-relay.v5
+ARG SRC_DIR=/go/src/github.com/atrakh/ld-relay
 
 RUN mkdir -p $SRC_DIR
 
@@ -26,7 +26,7 @@ RUN apk add --no-cache \
  && update-ca-certificates \
  && rm -rf /var/cache/apk/*
 
-ARG SRC_DIR=/go/src/gopkg.in/launchdarkly/ld-relay.v5
+ARG SRC_DIR=/go/src/github.com/atrakh/ld-relay
 
 COPY --from=builder ${SRC_DIR}/ldr /usr/bin/ldr
 

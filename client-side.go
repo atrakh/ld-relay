@@ -10,9 +10,9 @@ import (
 
 	"net/http/httputil"
 
+	"github.com/atrakh/ld-relay/internal/events"
+	"github.com/atrakh/ld-relay/internal/util"
 	"github.com/gorilla/mux"
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/events"
-	"gopkg.in/launchdarkly/ld-relay.v5/internal/util"
 )
 
 type contextKeyType string
